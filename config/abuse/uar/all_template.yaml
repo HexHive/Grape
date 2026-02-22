@@ -1,0 +1,38 @@
+rules:
+  - id: find-uar-var-consistency-violation-callsite
+    message: |
+      Finding All Use-After-Return Violation Callsite
+    metadata:
+      type: All Variable Consistency Violation Callsite
+    severity: ERROR
+    patterns:
+      - pattern: |
+          $RET_VALUE = $VAR1.$MEMBERFUNC();
+          ...
+          return $RET_VALUE;
+      - pattern-inside: |
+          $RETURN_TYPE $FREE_FUNC(..., String &$STR,...) {
+            ...
+            CSSParserTokenStream $VAR1($STR);
+            ...
+          }
+      - metavariable-regex:
+          metavariable: $RETURN_TYPE
+          regex: ^(\w+::)?\w*<*CSSParserToken>*$|^CSSParserToken$
+      - focus-metavariable: $RET_VALUE
+    languages:
+      - c++
+  - id: find-uaf-var-consistency-violation-callsite
+    message: |
+      Finding Use-After-Destroy (Return) Violation Callsite
+    metadata:
+      type: All Variable Consistency Violation Callsite
+    severity: ERROR
+    patterns:
+      - pattern: $RET_VALUE = $CLASS(...).$MEMBERFUNC(...);
+      - metavariable-regex:
+          metavariable: $CLASS
+          regex: ^CSSParserTokenStream$|^CSSTokenizer$
+      - focus-metavariable: $RET_VALUE
+    languages:
+      - c++

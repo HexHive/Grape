@@ -1,0 +1,10 @@
+*_tests.h
+*_tests.cc
+*_unittests.cc
+*_test.h
+*_test.cc
+*_unittest.cc
+*_browsertest.cc
+*_test_*.cc
+*.test.ts
+*test*.ts

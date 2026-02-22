@@ -1,0 +1,12 @@
+rules:
+- id: find-all-ui-violation-callsite
+  message: |
+    Finding All Violation Callsite
+  metadata:
+    type: All UI Violation Callsite
+  severity: ERROR
+  patterns:
+    - pattern: $FREE_FUNC(...);
+    - focus-metavariable: $FREE_FUNC
+  languages:
+  - c++

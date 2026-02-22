@@ -1,0 +1,45 @@
+{
+  "ReleaseProcess" : {
+    "content/browser/service_worker/embedded_worker_instance.cc" : 1
+  },
+  "ActivateContents" : {
+    "chrome/browser/ui/tabs/saved_tab_groups/saved_tab_group_utils.cc" : 1,
+    "chrome/browser/media/webrtc/media_stream_focus_delegate.cc" : 1,
+    "chrome/browser/ui/views/extensions/extension_install_dialog_view.cc" : 1
+  },
+  "ClientAreaSizeChanged" : {
+    "ui/views/win/hwnd_message_handler.cc" : 2
+  },
+  "DeleteDelegate" : {
+    "ui/views/widget/widget.cc" : 1,
+    "ui/message_center/views/message_popup_collection.cc" : 1
+  },
+  "DetachFromFramebuffer" : {
+    "gpu/command_buffer/service/framebuffer_manager.cc" : 4
+  },
+  "SyncWatchExclusive" : {
+    "mojo/public/cpp/bindings/lib/interface_endpoint_client.cc" : 1
+  },
+  "HandleMessage" : {
+    "chromecast/cast_core/runtime/browser/runtime_application_service_impl.cc" : 1
+  },
+  "StopAnimating" : {
+    "ash/keyboard/ui/keyboard_ui_controller.cc" : 1
+  },
+  "StopAnimatingProperty" : {
+    "ui/compositor/layer.cc" : 1
+  },
+  "HandleKeyEvent" : {
+    "chrome/browser/ash/input_method/assistive_suggester.cc" : 1
+  },
+  "HandleMouseEvent" : {
+    "ui/views/win/hwnd_message_handler.cc" : 1
+  },
+  "OnBoundsChanged" : {
+    "ui/views/widget/desktop_aura/desktop_window_tree_host_linux.cc" : 1
+  },
+  "GeneratedPasswordAccepted" : {
+    "chrome/browser/ui/passwords/password_generation_popup_controller_impl.cc" : 1
+  }
+
+}

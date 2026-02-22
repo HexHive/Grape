@@ -1,0 +1,19 @@
+rules:
+# try expand the scope
+- id: int-overflow-add
+  message: |
+    Integer Overflow Caused Out Of Bounds R/W via Add
+  metadata:
+    type: Integer Overflow Caused Out Of Bounds R/W via Add
+  severity: ERROR
+  patterns:
+    # using find results without checking
+    - pattern-either:
+        - pattern: $KEY_VAR += $ANY_ARG;
+        - pattern: $KEY_VAR = $VAR1 + $VAR2;     
+    - metavariable-regex:
+        metavariable: $KEY_VAR
+        regex: (^quadCount$)
+    - focus-metavariable: $KEY_VAR
+  languages:
+  - c++

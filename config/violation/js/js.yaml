@@ -1,0 +1,38 @@
+rules:
+- id: find-js-violation
+  message: |
+    Finding JS Violation Functions
+  metadata:
+    type: JS Use-After-Free detection
+  severity: ERROR
+  patterns:
+    # observe ptr is pdfium variant for weakptr
+    - pattern-either: 
+      - pattern: |
+          $FREE_FUNC(...);
+          if (!$WEAK_VAR)
+            return ...;
+      - pattern: |
+          $FREE_FUNC(...);
+          if ($WEAK_VAR) {
+            $OTHER_FUNC(...);
+            ...
+          }
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if (!$WEAK_VAR)
+            return ...;
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if ($WEAK_VAR) {
+            $OTHER_FUNC(...);
+            ...
+          }
+    - metavariable-regex:
+        metavariable: $WEAK_VAR
+        regex: (^observed_[a-z]+$) 
+    - focus-metavariable: $FREE_FUNC
+  languages:
+  - c++

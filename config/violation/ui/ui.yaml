@@ -1,0 +1,62 @@
+rules:
+- id: find-ui-violation
+  message: |
+    Finding UI Violation Functions
+  metadata:
+    type: UI Use-After-Free detection
+  severity: ERROR
+  patterns:
+    # three way of weak_ptr
+    - pattern-either: 
+      - pattern: |
+          $FREE_FUNC(...);
+          if (!$WEAK_VAR)
+            return ...;
+      - pattern: |
+          $FREE_FUNC(...);
+          if (!$WEAK_VAR.get()) {
+            return ...;
+          }
+      - pattern: |
+          $FREE_FUNC(...);
+          if ($WEAK_VAR) {
+            $OTHER_FUNC(...);
+            ...
+          }
+      - pattern: |
+          $FREE_FUNC(...);
+          if ($WEAK_VAR.get()) {
+            $OTHER_FUNC(...);
+            ...
+          }
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if (!$WEAK_VAR)
+            return ...;
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if (!$WEAK_VAR.get()) {
+            return ...;
+          }
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if ($WEAK_VAR) {
+            $OTHER_FUNC(...);
+            ...
+          }
+      - pattern: |
+          if ($CONDITION)
+            $FREE_FUNC(...);
+          if ($WEAK_VAR.get()) {
+            $OTHER_FUNC(...);
+            ...
+          }
+    - metavariable-regex:
+        metavariable: $WEAK_VAR
+        regex: (^(weak_[a-z]+)$|^[a-z]+_ref$|^ref$) #(^weak_[a-z]+$)
+    - focus-metavariable: $FREE_FUNC
+  languages:
+  - c++

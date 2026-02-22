@@ -1,0 +1,15 @@
+rules:
+- id: find-all-js-violation-callsite
+  message: |
+    Finding All Violation Callsite
+  metadata:
+    type: All JS Violation Callsite
+  severity: ERROR
+  patterns:
+    - pattern: $OBJ->$FREE_FUNC(...);
+    - focus-metavariable: $FREE_FUNC
+    - metavariable-regex:
+        metavariable: $OBJ
+        regex: (^[a-zA-Z_]+(Widget|Form)$)
+  languages:
+  - c++

@@ -1,0 +1,10 @@
+rules:
+  - id: find-all-access-control-violation-callsite
+    languages:
+      - typescript
+    severity: ERROR
+    message: |
+      Finding All Violation Callsite
+    patterns:
+      - pattern: $DIR_NAME = path.join(os.tmpdir(), ...);      
+      - focus-metavariable: $DIR_NAME

@@ -1,0 +1,16 @@
+rules:
+- id: find-func-defination
+  message: |
+    Finding Defination In Same File
+  metadata:
+    type: Finding Defination In Same File
+  severity: ERROR
+  patterns:
+    # three way of weak_ptr
+    - pattern: |
+        $RETURN_TYPE $FUNC_NAME(...) {
+          ...
+        }
+    - focus-metavariable: $FUNC_NAME
+  languages:
+  - c++

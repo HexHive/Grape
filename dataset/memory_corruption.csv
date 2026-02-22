@@ -1,0 +1,253 @@
+bug id,bug type (CWE),component,Short,input,privilege,mitigation,bounty,introduced_date,reported_date,fixed_date,Has Similar Bug?,third-party
+368241697,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,55000,2022-01-12,2024-09-20,2024-09-25,No,No
+368208152,CWE-125,Internals > Mojo > Core,Mojo,browser-js,browser,1,35000,N/A,2024-09-19,2024-09-23,No,No
+367764861,CWE-680,Blink > Layout > Ruby,Ruby,html,renderer,0,10000,2024-06-04,2024-09-18,2024-09-19,No,No
+367755363,CWE-416,Blink > AI,AI,browser-js,browser,1,36000,2024-08-08,2024-09-18,2024-10-02,No,No
+366381662,CWE-617,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,10000,2024-08-12,2024-09-13,2024-09-18,No,No
+365802567,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,55000,2023-01-05,2024-09-11,2024-09-17,No,No
+365802556,CWE-562,Blink > CSS,Blink,html,renderer,0,11000,2024-07-05,2024-09-10,2024-09-13,Yes,No
+365376497,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,55000,N/A,2024-09-08,2024-09-10,No,No
+365254285,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-09-08,2024-09-16,No,dxcompiler
+361784548,CWE-416,Blink > PresentationAPI,PresentationAPI,gesture,renderer,0,11000,2015-08-07,2024-08-23,2024-08-30,Yes,No
+361461526,CWE-680,Internals > Skia,Skia,graphic shader,gpu,1,15000,2017-05-03,2024-08-22,2024-08-29,Yes,No
+360758697,CWE-680,Internals > Skia,Skia,graphic shader,gpu,1,15000,2016-08-26,2024-08-19,2024-08-21,Yes,No
+360533914,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,55000,2022-03-31,2024-08-19,2024-08-20,Yes,No
+360265320,CWE-680,Internals > Skia,Skia,graphic shader,gpu,1,15000,2022-01-11,2024-08-16,2024-08-19,Yes,No
+359909532,CWE-125,Blink > WebGPU,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-08-15,2024-08-29,No,mesa
+358296941,CWE-416,UI > Browser > Passwords,UI,gesture,browser,1,36000,2023-09-13,2024-08-08,2024-08-09,Yes,No
+357484640,CWE-121,Blink > WebGL,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-08-05,2024-08-19,No,mesa
+356196918,CWE-125,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,11000,2020-09-03,2024-07-30,2024-08-08,No,No
+355465305,CWE-680,Internals > Skia,Skia,graphic shader,gpu,1,15000,2023-07-18,2024-07-25,2024-08-09,No,No
+355139788,CWE-416,UI > Browser > Autofill > Payments,UI,gesture,browser,1,36000,2024-05-23,2024-07-24,2024-08-09,No,No
+354748060,CWE-1281,Dawn > Tint,Dawn,graphic shader,gpu,0,10000,2024-04-25,2024-07-23,2024-07-24,No,No
+353552540,CWE-416,UI > Browser > Sharing,UI,gesture,browser,1,11000,2022-10-14,2024-07-17,2024-07-22,No,No
+353034820,CWE-1281,Dawn > Tint,Dawn,graphic shader,gpu,0,10000,N/A,2024-07-15,2024-07-22,No,No
+351327767,CWE-125,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,20000,2023-08-04,2024-07-06,2024-07-11,No,No
+349198731,CWE-416,UI > Browser > Download,UI,gesture,browser,1,11000,2018-02-20,2024-06-25,2024-06-27,No,No
+348598133,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2024-03-21,2024-06-22,2024-06-27,Yes,No
+348129258,CWE-122,PDFium,ThirdParty,image,renderer,0,11000,2024-05-25,2024-06-19,2024-06-21,No,libopenjpeg
+346618785,CWE-562,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-06-12,2024-07-15,No,dxcompiler
+346597059,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,10000,2023-11-16,2024-06-12,2024-06-21,No,No
+345960102,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,11000,2022-11-21,2024-06-10,2024-07-01,No,No
+345993680,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,11000,N/A,2024-06-09,2024-06-18,No,dxcompiler
+345822331,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-06-08,2024-06-12,No,dxcompiler
+344639860,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-06-04,2024-06-12,No,dxcompiler
+343035068,CWE-125,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2024-05-14,2024-05-28,2024-06-03,No,No
+342545100,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-24,2024-06-18,No,dxcompiler
+342456991,CWE-843,Blink > JavaScript,V8,JS,renderer,0,25000,2024-03-19,2024-05-24,2024-05-31,Yes,No
+342428008,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-23,2024-06-11,No,dxcompiler
+342415789,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2024-05-13,2024-05-23,2024-05-29,No,No
+340196361,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-13,2024-05-30,No,dxcompiler
+339877167,CWE-416,Blink > Network > StreamsAPI,Network,renderer-js,renderer,0,11000,2020-12-04,2024-05-11,2024-05-21,No,No
+339169163,CWE-125,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-07,2024-06-10,No,dxcompiler
+339171223,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-07,2024-05-30,No,dxcompiler
+338908243,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,10000,2023-09-13,2024-05-06,2024-05-10,Yes,No
+338248595,CWE-269,Platform > DevTools,DevTool,browser-js,browser,1,20000,2023-07-07,2024-05-02,2024-07-08,No,No
+338103465,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-01,2024-05-21,No,dxcompiler
+338162110,CWE-416,UI > Accessibility > Compatibility,UI,gesture,browser,1,10000,2024-03-20,2024-05-01,2024-05-23,No,No
+338161969,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-01,2024-05-13,No,dxcompiler
+338071106,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-05-01,2024-05-21,No,dxcompiler
+337766133,CWE-122,Internals > GPU > ANGLE,ANGLE,gpu-js,gpu,0,11000,2021-11-25,2024-04-29,2024-05-02,Yes,No
+336012573,CWE-416,Blink > Scheduling,Scheduling,renderer-js,renderer,0,11000,2021-11-05,2024-04-21,2024-05-10,No,No
+333508731,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-04-09,2024-04-25,No,dxcompiler
+333420620,CWE-562,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-04-09,2024-04-18,No,dxcompiler
+333414294,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-04-09,2024-05-08,No,dxcompiler
+332546345,CWE-121,Internals > GPU > ANGLE,ANGLE,graphic shader,gpu,0,16000,2021-06-25,2024-04-02,2024-04-09,No,No
+332081797,CWE-843,Blink > JavaScript > WebAssembly > Runtime,V8,JS,renderer,0,11500,2024-02-21,2024-03-31,2024-04-03,No,No
+331358160,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,20000,2021-06-18,2024-03-27,2024-04-09,Yes,No
+331383939,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,20000,2024-01-23,2024-03-27,2024-04-03,Yes,No
+331237485,CWE-125,Internals > Services > Viz,Viz,browser-js,browser,1,21000,2020-04-29,2024-03-26,2024-03-26,No,No
+331123811,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-03-25,2024-03-27,No,dxcompiler
+329781390,CWE-843,Blink > Identity > DigitalCredentials,DigitalCredentials,renderer-js,renderer,0,11000,2024-03-12,2024-03-15,2024-03-28,No,No
+328958020,CWE-416,Dawn > Tint,ThirdParty,graphic shader,gpu,0,10000,N/A,2024-03-11,2024-03-22,No,dxcompiler
+328859176,CWE-122,Internals > GPU > ANGLE,ANGLE,graphic shader,gpu,0,10000,2023-12-07,2024-03-09,2024-03-28,Yes,No
+327807820,CWE-416,Internals > GPU > ANGLE,ANGLE,gpu-js,gpu,0,10000,2024-02-11,2024-03-03,2024-03-15,No,No
+327740539,CWE-617,Blink > JavaScript,V8,JS,renderer,0,15000,2022-01-19,2024-03-01,2024-03-08,No,No
+327687950,CWE-416,Internals > Network > QUIC,Network,network-js,network,0,10000,N/A,2024-03-01,2024-03-09,Yes,No
+325893559,CWE-125,Blink > JavaScript > WebAssembly > Runtime,V8,JS,renderer,0,12000,2023-08-02,2024-02-19,2024-02-22,No,No
+325878101,CWE-843,Blink > JavaScript > WebAssembly > Runtime,V8,JS,renderer,0,12000,2023-08-02,2024-02-19,2024-02-22,No,No
+41497180,CWE-416,Blink > WebRTC,WebRTC,renderer-js,renderer,0,11000,2024-01-26,2024-02-02,2024-02-12,No,No
+41494860,CWE-122,Internals > Skia,Skia,image,renderer,0,15000,N/A,2024-01-25,2024-01-20,No,No
+41492634,CWE-416,Internals > GPU,GPU,renderer-js,gpu,0,10000,2023-12-14,2024-01-18,2024-02-05,No,No
+41491234,CWE-416,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,17000,2023-08-08,2024-01-14,2024-01-17,Yes,No
+41489926,CWE-125,Blink > WebML,ThirdParty,renderer-js,renderer,0,11000,2022-12-16,2024-01-09,2024-01-25,No,xnnpack
+41488920,CWE-125,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,16000,2023-05-17,2024-01-05,2024-01-08,No,No
+41486859,CWE-122 ,Blink > Storage > FileSystem,FileSystem,browser-js,browser,1,21000,2023-12-04,2023-12-26,2024-01-11,No,No
+41484431,CWE-125,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2023-12-06,2023-12-15,2024-01-04,No,No
+40948927,CWE-125,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2023-10-17,2023-12-05,2023-12-06,No,No
+40948479,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,11000,2023-11-20,2023-12-04,2023-12-06,No,No
+40947602,CWE-416,Blink > WebGPU,GPU,renderer-js,renderer,0,11000,2022-10-14,2023-12-01,2023-12-13,No,No
+40945677,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,10000,2020-10-06,2023-11-24,2023-12-08,Yes,No
+40945671,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,11000,2012-05-02,2023-11-24,2024-01-23,Yes,No
+40945594,CWE-122,Internals > GPU > SwiftShader,SwiftShader,graphic shader,gpu,0,15000,N/A,2023-11-24,2023-12-07,Yes,No
+40945098,CWE-125,Internals > GPU > SwiftShader,SwiftShader,gpu-js,gpu,0,10000,N/A,2023-11-22,2024-02-01,No,No
+40943982,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,11000,2023-02-04,2023-11-19,2023-12-18,No,No
+40942112,CWE-416,Internals > GPU > ANGLE,ANGLE,gpu-js,gpu,1,15000,N/A,2023-11-13,2023-12-07,No,No
+40941600,CWE-125,Blink > JavaScript > Runtime,V8,JS,renderer,0,16000,2020-05-13,2023-11-10,2023-11-15,No,No
+40941111,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,10000,2022-10-18,2023-11-09,2023-11-11,Yes,No
+40940815,CWE-416,Blink > Identity > FedCM,FedCM,browser-js,browser,0,36000,2023-10-06,2023-11-08,2023-12-19,No,No
+40075982,CWE-416,Blink > GarbageCollection,GarbageCollection,renderer-js,renderer,0,10000,2023-07-15,2023-10-31,2023-11-07,No,No
+40075979,CWE-362,Blink > MediaStream,MediaStream,renderer-js,renderer,0,10000,2023-10-30,2023-10-31,2023-11-08,No,No
+40075944,CWE-416,UI > Browser > Permissions > Prompts,UI,gesture,browser,0,41000,2023-10-16,2023-10-31,2023-10-31,Yes,No
+40075655,CWE-416,Internals > Skia,Skia,gpu-js,gpu,0,10000,2023-10-26,2023-10-26,2024-04-26,No,No
+40937251,CWE-416,Internals > GPU > SwiftShader,SwiftShader,gpu-js,gpu,0,10000,2023-10-02,2023-10-22,2023-11-01,Yes,No
+40075342,CWE-416,Internals > Mojo > Bindings,Mojo,browser-js,browser,1,31000,2017-02-14,2023-10-20,2023-11-08,No,No
+40074792,CWE-125,IO > USB,IO,browser-js,kernel,1,11000,2016-04-14,2023-10-13,2023-10-20,No,kernel
+370425451,CWE-416,Internals > GPU > ANGLE,ANGLE,gpu-js,gpu,4,2000,2024-07-12,2024-09-30,2024-10-17,No,No
+370217726,CWE-416,FamilyExperiences > Browser,FamilyExperiences,browser-js,browser,3,5000,2023-08-28,2024-09-29,2024-10-24,No,No
+370133761,CWE-416,Blink > WebAuthentication,WebAuthentication,browser-js,browser,3,6000,2023-10-24,2024-09-29,2024-10-01,No,No
+370069678,CWE-416,Blink > Storage > CacheStorage,Storage,browser-js,browser,3,6000,2024-09-19,2024-09-28,2024-10-03,No,No
+368672129,CWE-416,Platform > DevTools,DevTool,renderer-js,renderer,3,4000,2023-12-11,2024-09-21,2024-09-25,No,No
+367818758,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,7000,2022-09-22,2024-09-08,2024-10-02,Yes,No
+366783804,CWE-125,Blink > JavaScript > Runtime,V8,JS,renderer,0,9000,N/A,2024-09-05,2024-09-17,No,No
+365884464,CWE-125,Internals > Skia,Skia,gpu-js,gpu,4,1000,2019-05-24,2024-09-11,2024-09-18,Yes,No
+365516486,CWE-416,UI > Browser,UI,gesture,browser,4,2000,2024-09-06,2024-09-09,2024-09-10,No,No
+363538434,CWE-617,Blink > JavaScript > Parser,V8,JS,renderer,0,8000,2024-07-05,2024-09-01,2024-09-13,No,No
+362658609,CWE-416,UI > Browser > Autofill,UI,gesture,browser,3,5000,2024-01-22,2024-08-28,2024-09-02,No,No
+362539773,CWE-843,Blink > JavaScript > Runtime,V8,JS,renderer,0,7000,2024-03-21,2024-08-28,2024-08-29,No,No
+361782106,CWE-416,Blink > WebRTC,WebRTC,renderer-js,renderer,0,8000,2024-08-01,2024-08-24,2024-09-06,Yes,No
+360274917,CWE-416,UI > Accessibility > ReadingMode,UI,gesture,renderer,4,1000,2022-05-04,2024-08-16,2024-10-09,No,No
+360044696,CWE-125,Blink > JavaScript > Compiler,V8,JS,renderer,3,2000,2023-12-06,2024-08-15,2024-08-20,Yes,No
+359949835,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2023-08-22,2024-08-15,2024-08-22,No,No
+359729268,CWE-125,Blink > JavaScript > Runtime,V8,JS,renderer,0,8000,2024-07-19,2024-08-14,2024-08-17,No,No
+358485426,CWE-617,Blink > JavaScript > GarbageCollection,V8,JS,renderer,0,7000,2024-06-24,2024-08-09,2024-08-28,No,No
+358151317,CWE-416,UI > Browser > Mobile,UI,gesture,browser,3,5000,2023-02-15,2024-08-08,2024-08-20,Yes,No
+357776197,CWE-416,UI > Browser > ParcelTracking,UI,gesture,browser,4,2000,2023-10-03,2024-08-06,2024-08-20,Yes,No
+357391257,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,7000,2020-10-06,2024-08-05,2024-08-22,Yes,No
+356423094,CWE-416,Blink > WebRTC,WebRTC,renderer-js,renderer,0,8000,2024-01-08,2024-07-31,2024-08-08,No,No
+355870166,CWE-125,Blink > JavaScript > Regexp,V8,JS,renderer,0,7000,2024-07-25,2024-07-28,2024-08-06,No,No
+355731798,CWE-122,Blink > Fonts,Blink,html,renderer,0,7000,2024-03-14,2024-07-27,2024-08-10,No,No
+355256380,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,7000,2023-09-13,2024-07-25,2024-07-25,Yes,No
+354847246,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,2,3000,2012-05-02,2024-07-23,2024-07-31,Yes,No
+354748063,CWE-416,Dawn > Native,Dawn,gpu-js,gpu,3,2000,2024-04-08,2024-07-23,2024-08-29,No,No
+354627692,CWE-1281,Dawn > Tint,Dawn,graphic shader,gpu,5,1000,N/A,2024-07-22,2024-07-24,No,No
+353628445,CWE-125,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,7000,2024-07-03,2024-07-17,2024-07-25,No,No
+352872238,CWE-125,Blink > Network > WebTransport,Network,renderer-js,renderer,0,7000,2024-03-11,2024-07-13,2024-07-23,No,No
+352690885,CWE-617,Blink > JavaScript,V8,JS,renderer,0,8000,2024-03-07,2024-07-12,2024-07-30,No,No
+352610611,CWE-416,Dawn,Dawn,gpu-js,renderer,0,8000,2024-06-28,2024-07-12,2024-07-23,No,No
+352467338,CWE-122,Blink > Layout,Blink,html,renderer,0,7000,2024-05-01,2024-07-11,2024-08-02,No,No
+351843813,CWE-416,Blink > Compositing,Blink,renderer-js,renderer,5,500,2019-12-04,2024-07-09,2024-07-31,Yes,No
+351865302,CWE-843,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,7000,N/A,2024-07-09,2024-08-20,No,No
+350869463,CWE-122,UI > Browser > WebAppInstalls,UI,gesture,browser,4,2000,2019-11-05,2024-07-03,2024-07-03,Yes,No
+349788229,CWE-617,Blink > JavaScript,V8,JS,renderer,0,7000,2024-06-27,2024-06-27,2024-07-04,No,No
+349728837,CWE-416,UI > Browser > Downloads,UI,gesture,browser,5,1000,2016-08-04,2024-06-27,2024-06-28,No,No
+349653218,CWE-416,Internals > Network > Logging,Network,browser-js,browser,4,1000,2017-09-19,2024-06-27,2024-07-02,No,No
+349342289,CWE-416,Platform > Extensions,Extension,browser-js,browser,2,8000,2023-01-04,2024-06-25,2024-07-11,Yes,No
+349253666,CWE-416,UI > Browser > Autofill,UI,gesture,browser,5,1000,2023-07-03,2024-06-25,2024-07-15,Yes,No
+348793144,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2024-04-18,2024-06-23,2024-06-26,No,No
+348793134,CWE-122,UI > Browser > WebAppInstalls,UI,gesture,browser,4,2000,2024-03-15,2024-06-22,2024-06-27,Yes,No
+347724915,CWE-125,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,8000,2024-05-09,2024-06-17,2024-06-19,No,No
+347664964,CWE-416,UI > Browser,UI,gesture,browser,4,1000,2024-06-10,2024-06-17,2024-07-16,No,No
+347373236,CWE-416,Blink > GetUserMedia,GetUserMedia,browser-js,browser,3,5000,2024-01-02,2024-06-15,2024-06-24,No,No
+346898524,CWE-416,Internals > Media > ScreenCapture,Media,browser-js,browser,2,6000,2023-06-21,2024-06-13,2024-06-19,No,No
+346835902,CWE-843,Blink > JavaScript,V8,JS,renderer,0,8000,2024-06-04,2024-06-13,2024-06-13,No,No
+346692546,CWE-416,Internals > Media > Audio,Media,browser-js,browser,3,4000,2023-09-19,2024-06-12,2024-06-20,No,No
+346044228,CWE-416,Internals > Media > CameraCapture,Media,browser-js,browser,4,3000,2024-05-28,2024-06-09,2024-06-11,No,No
+345640549,CWE-416,UI > Browser > Navigation,UI,gesture,browser,4,2500,2023-05-30,2024-06-07,2024-06-21,No,No
+345518608,CWE-125,PDFium,PDFium,pdf,renderer,0,7000,2023-05-30,2024-06-07,2024-06-13,No,No
+345352978,CWE-122,Blink > JavaScript > Internationalization,ThirdParty,font,renderer,5,500,N/A,2024-06-06,2024-06-28,No,libicu
+343748812,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,7000,2023-02-08,2024-05-31,2024-06-04,No,No
+343302586,CWE-416,UI > Notifications,UI,gesture,browser,3,4000,2024-02-22,2024-05-29,2024-05-31,No,No
+343093440,CWE-416,Internals > PerformanceManager,PerformanceManager,browser-js,browser,5,500,2024-05-24,2024-05-28,2024-06-13,No,No
+343014709,CWE-125,Internals > Media > CameraCapture,Media,browser-js,browser,4,2000,2024-04-29,2024-05-28,2024-06-12,No,No
+342840932,CWE-1281,Dawn > Tint,Dawn,graphic shader,gpu,3,5000,N/A,2024-05-26,2024-05-29,No,No
+342602616,CWE-843,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,7000,2024-02-07,2024-05-24,2024-05-31,Yes,No
+342419061,CWE-416,UI > Browser,UI,gesture,browser,3,3000,2024-05-13,2024-05-24,2024-05-29,No,No
+341991535,CWE-125,UI > Browser > TopChrome > TabStrip > TabGroups,UI,gesture,browser,4,3000,2024-04-04,2024-05-22,2024-05-30,No,No
+341313077,CWE-416,Internals > Plugins > PDF,PDFium,pdf,renderer,5,1000,2021-09-13,2024-05-18,2024-05-22,Yes,No
+341181414,CWE-125,Blink > DOM,Blink,html,renderer,0,9000,N/A,2024-05-18,2024-05-22,No,No
+341095523,CWE-416,Internals > Plugins > PDF,PDFium,pdf,renderer,5,1000,2017-03-20,2024-05-16,2024-05-22,Yes,No
+340178596,CWE-416,Internals > Media > Audio,Media,browser-js,browser,4,2000,2012-10-26,2024-05-13,2024-05-17,Yes,No
+340221135,CWE-843,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,8000,N/A,2024-05-13,2024-05-13,No,No
+340098902,CWE-416,Internals > Views > Desktop,Views,browser-js,browser,4,2000,N/A,2024-05-13,2024-05-14,No,No
+339877165,CWE-122,Blink > WebRTC,WebRTC,audio,renderer,0,7000,N/A,2024-05-11,2024-05-17,No,libaom
+339877158,CWE-416,Blink > CSS,Blink,html,renderer,0,500,2022-06-27,2024-05-11,2024-05-16,Yes,No
+339788215,CWE-416,Blink > CSS,Blink,html,renderer,0,7000,2022-10-27,2024-05-10,2024-05-13,Yes,No
+339686368,CWE-122,Blink > Layout > Grid,Blink,html,renderer,0,8000,2022-02-04,2024-05-10,2024-06-11,No,No
+339588211,CWE-416,Blink > PresentationAPI,PresentationAPI,renderer-js,renderer,5,1000,2022-05-06,2024-05-09,2024-05-21,Yes,No
+339287000,CWE-416,Blink > DOM,Blink,renderer-js,renderer,0,8000,2024-04-15,2024-05-08,2024-05-14,No,No
+339141099,CWE-843,Platform > Extensions,Extension,renderer-js,renderer,2,3000,N/A,2024-05-07,2024-06-18,No,No
+339061099,CWE-125,UI > Input > KeyboardShortcuts,UI,gesture,browser,4,2000,2018-08-23,2024-05-07,2024-05-23,No,No
+338929744,CWE-416,Internals > Media > Session,Media,browser-js,browser,4,1000,N/A,2024-05-06,2024-05-24,No,No
+337998760,CWE-416,Blink > Bindings,Blink,renderer-js,renderer,2,3000,2024-03-18,2024-04-30,2024-05-08,No,No
+336449367,CWE-416,Unknown,Mojo,browser-js,browser,4,3000,2024-04-16,2024-04-23,2024-06-12,No,No
+336399251,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2024-04-18,2024-04-23,2024-04-25,No,No
+335613092,CWE-122,Internals > GPU > SwiftShader,SwiftShader,graphic shader,gpu,0,20000,N/A,2024-04-18,2024-05-03,Yes,No
+335003891,CWE-843,Blink > Media > PictureInPicture,Media,html,renderer,3,3000,N/A,2024-04-16,2024-04-19,No,No
+334110479,CWE-416,UI > Browser > TopChrome > SidePanel,UI,gesture,browser,4,1000,2024-04-05,2024-04-13,2024-04-19,No,No
+333414305,CWE-122,Internals > Plugins > PDF,PDFium,pdf,renderer,2,7000,2023-12-11,2024-04-09,2024-04-12,No,No
+332939155,CWE-125,Blink > WebGL,GPU,renderer-js,renderer,0,8000,2023-06-30,2024-04-05,2024-04-23,No,No
+332592716,CWE-416,Internals > OptimizationGuide,OptimizationGuide,browser-js,browser,4,3000,2023-11-28,2024-04-03,2024-04-05,No,No
+331837300,CWE-125,Blink > JavaScript,V8,JS,renderer,0,9000,2024-03-26,2024-03-28,2024-04-02,No,No
+331369797,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,8000,2024-03-15,2024-03-26,2024-05-01,No,No
+329965696,CWE-416,UI > Browser > PriceTracking,UI,gesture,browser,3,3000,N/A,2024-03-17,2024-03-19,No,No
+329271490,CWE-121,Internals > GPU > ANGLE,ANGLE,graphic shader,gpu,4,2000,2024-02-22,2024-03-13,2024-03-26,No,No
+329130361,CWE-416,Blink > WebMIDI,Blink,renderer-js,renderer,3,3000,2024-03-08,2024-03-12,2024-03-21,No,No
+329130358,CWE-617,Blink > JavaScript > API,V8,JS,renderer,0,7000,2024-02-19,2024-03-12,2024-03-18,No,No
+328918906,CWE-416,Blink > WebAudio,WebAudio,renderer-js,renderer,0,8000,2024-02-29,2024-03-11,2024-03-13,No,No
+328483401,CWE-125,Blink > WebGL,GPU,renderer-js,renderer,0,9000,2024-03-07,2024-03-07,2024-03-13,No,No
+327696052,CWE-416,Internals > PerformanceManager,PerformanceManager,browser-js,browser,3,4000,2023-11-19,2024-03-01,2024-03-05,No,No
+326765855,CWE-416,Platform > DevTools,DevTool,renderer-js,renderer,3,2000,N/A,2024-02-26,2024-04-19,Yes,No
+326607008,CWE-416,UI > Browser > Downloads,UI,gesture,browser,4,3000,2021-08-09,2024-02-24,2024-03-15,No,No
+326607001,CWE-617,Blink > JavaScript,V8,JS,renderer,0,7000,2023-12-01,2024-02-24,2024-03-18,No,No
+326277812,CWE-416,Internals > Media > UI,UI,gesture,browser,4,3000,2024-01-04,2024-02-22,2024-02-22,No,No
+325936438,CWE-416,Blink > Identity > FedCM,FedCM,gesture,browser,2,6000,2023-03-08,2024-02-20,2024-02-21,Yes,No
+325866363,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,7000,2024-02-07,2024-02-19,2024-02-21,No,No
+325697537,CWE-416,UI > Accessibility,UI,gesture,browser,3,4000,2024-02-16,2024-02-17,2024-03-04,No,No
+325293263,CWE-416,UI > Browser > TopChrome,UI,gesture,browser,3,3000,N/A,2024-02-15,2024-05-24,No,No
+324864439,CWE-125,Blink > WebRTC,WebRTC,renderer-js,renderer,0,7000,2022-09-01,2024-02-12,2024-02-23,Yes,No
+324747822,CWE-843,Blink > JavaScript,V8,JS,renderer,0,8000,2024-02-07,2024-02-12,2024-02-15,Yes,No
+324596281,CWE-617,Blink > JavaScript,V8,JS,renderer,0,7000,2024-02-06,2024-02-11,2024-02-14,No,No
+324690505,CWE-617,Blink > JavaScript,V8,JS,renderer,4,1000,2024-02-06,2024-02-11,2024-02-16,No,No
+324342761,CWE-617,Blink > JavaScript,V8,JS,renderer,0,8000,2024-01-25,2024-02-08,2024-02-10,No,No
+323813642,CWE-416,Platform > DevTools > Sources,DevTool,renderer-js,renderer,2,3000,N/A,2024-02-05,2024-02-07,No,No
+323694592,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,15000,2023-11-09,2024-02-05,2024-02-13,No,No
+41496366,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,7000,2024-01-24,2024-01-31,2024-02-05,No,No
+41495060,CWE-617,Blink > Color,Blink,html,renderer,0,7000,N/A,2024-01-26,2024-01-30,No,No
+41494611,CWE-617,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,8000,2024-01-18,2024-01-25,2024-01-30,No,No
+41494539,CWE-416,Internals > Core,Mojo,browser-js,browser,2,5000,2024-01-23,2024-01-25,2024-01-26,No,No
+41493674,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,8000,2024-01-09,2024-01-23,2024-01-26,No,No
+41493290,CWE-416,Blink > Canvas,Blink,renderer-js,renderer,2,4000,2023-12-14,2024-01-21,2024-01-26,Yes,No
+41493286,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,8000,2024-01-16,2024-01-21,2024-01-25,No,No
+41493285,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,7000,2023-12-14,2024-01-21,2024-01-24,No,No
+41493175,CWE-125,Blink > JavaScript > Runtime,V8,JS,renderer,0,8000,2023-12-11,2024-01-20,2024-01-23,No,No
+41491428,CWE-416,UI > Accessibility,UI,gesture,browser,3,3000,N/A,2024-01-15,2024-01-24,No,No
+41491379,CWE-416,Internals > Network > QUIC,network,network-js,network,3,7000,N/A,2024-01-15,2024-02-29,Yes,No
+41491373,CWE-617,Blink > JavaScript > Compiler,V8,JS,renderer,0,8000,2023-11-22,2024-01-15,2024-01-22,No,No
+41490491,CWE-416,UI > Accessibility,UI,gesture,browser,4,2000,2022-05-04,2024-01-11,2024-01-30,No,No
+41488824,CWE-416,Blink > WebRTC,WebRTC,renderer-js,renderer,0,9000,2022-01-17,2024-01-05,2024-01-13,No,No
+41487330,CWE-416,Blink > WebRTC > PeerConnection,WebRTC,renderer-js,renderer,3,3000,2023-01-09,2023-12-29,2024-01-19,Yes,No
+41486862,CWE-125,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2023-10-17,2023-12-26,2024-01-09,No,No
+41486636,CWE-617,Blink > JavaScript,V8,JS,renderer,0,7000,2023-11-23,2023-12-24,2024-01-29,Yes,No
+41486150,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2023-11-30,2023-12-21,2024-01-09,No,No
+41485059,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,8000,2023-11-20,2023-12-18,2023-12-19,No,No
+41484271,CWE-416,Blink > Storage > WebSQL,WebSQL,renderer-js,renderer,0,1000,2023-05-24,2023-12-14,2023-12-18,No,sqlite3
+41484151,CWE-416,Blink > Canvas,Blink,renderer-js,renderer,2,5000,2023-08-31,2023-12-14,2024-01-17,Yes,No
+41483711,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,0,8000,2023-12-06,2023-12-13,2023-12-15,No,No
+41483297,CWE-843,Blink > JavaScript > Runtime,V8,JS,renderer,0,7000,2023-08-18,2023-12-12,2023-12-13,Yes,No
+41481374,CWE-416,Internals > Mojo,Mojo,browser-js,browser,2,5000,2023-10-02,2023-12-06,2024-02-01,No,No
+40948441,CWE-617,Blink > JavaScript > WebAssembly,V8,JS,renderer,0,8000,2023-11-13,2023-12-04,2023-12-06,No,No
+40948107,CWE-617,Blink > JavaScript > Compiler > Turbofan,V8,JS,renderer,4,1000,N/A,2023-12-02,2023-12-18,No,No
+40946348,CWE-416,Blink > WebRTC,WebRTC,renderer-js,renderer,0,7000,N/A,2023-11-28,2023-12-01,No,No
+40945774,CWE-416,UI > Browser > Passwords,UI,gesture,browser,4,1000,2021-10-07,2023-11-25,2023-12-04,Yes,No
+40945587,CWE-416,UI > Browser > ContentSuggestions,UI,gesture,browser,4,2000,2023-11-14,2023-11-24,2023-12-06,No,No
+40945515,CWE-124,UI > Browser > Themes,UI,gesture,browser,2,6000,N/A,2023-11-24,2024-01-02,No,No
+40945359,CWE-122,Internals > Images > Codecs,ThirdParty,image,renderer,0,7000,N/A,2023-11-23,2023-11-29,No,libavif
+40942995,CWE-416,Internals > GPU > SwiftShader,SwiftShader,gpu-js,gpu,2,4000,N/A,2023-11-15,2024-06-14,No,No
+40942837,CWE-416,UI > Browser > New Tab Page (use subcomponent),UI,gesture,browser,4,2000,2023-11-03,2023-11-15,2023-11-23,No,No
+40942439,CWE-416,Blink > GarbageCollection,GarbageCollection,renderer-js,renderer,0,7000,2022-12-05,2023-11-14,2023-11-29,No,No
+40942082,CWE-122,Internals > Images > Codecs,ThirdParty,image,renderer,0,7000,N/A,2023-11-13,2023-11-16,No,libavif
+40942077,CWE-122,Internals > Images > Codecs,ThirdParty,image,renderer,0,7000,N/A,2023-11-13,2023-11-16,No,libavif
+40941179,CWE-416,Blink > Identity > FedCM,FedCM,gesture,browser,2,6000,2023-01-23,2023-11-09,2023-11-28,Yes,No
+40940830,CWE-122,UI > GFX,UI,gesture,browser,4,1000,2019-12-13,2023-11-08,2023-11-17,No,No
+40076226,CWE-416,UI > Browser > ContentSuggestions,UI,gesture,browser,4,3000,2023-10-19,2023-11-06,2023-11-14,No,No
+40075744,CWE-617,Blink > JavaScript > Compiler > Maglev,V8,JS,renderer,0,8000,2023-09-21,2023-10-27,2023-11-07,No,No
+40075409,CWE-416,Services (Use Subcomponents) > CloudMessaging,CloudMessaging,browser-js,browser,4,1000,N/A,2023-10-23,2023-11-30,No,No
+40075363,CWE-122,Blink > Scheduling,Scheduling,renderer-js,renderer,0,8000,2023-10-14,2023-10-21,2023-10-25,No,No
+40075359,CWE-416,UI > Browser > SearchSidePanel,UI,gesture,browser,4,1000,2023-08-08,2023-10-21,2023-10-30,No,No
+40936633,CWE-416,UI > Browser > TopChrome > SidePanel,UI,gesture,browser,4,2000,2022-04-16,2023-10-17,2023-10-23,No,No
+40936128,CWE-416,UI > Accessibility > ReadingMode,UI,gesture,browser,4,2000,2023-10-04,2023-10-13,2023-10-23,Yes,No
+40074795,CWE-416,UI > Browser > Permissions > Prompts,UI,gesture,browser,4,3000,2023-10-04,2023-10-13,2023-11-09,No,No
+40074794,CWE-416,"IO (Do Not Use, Use Subcomponents) > USB",IO,browser-js,browser,2,8000,2021-03-19,2023-10-13,2024-05-08,No,No
+40074630,CWE-125,Blink > WebGL,GPU,graphic shader,renderer,0,7000,N/A,2023-10-11,2024-04-24,No,No
+40935719,CWE-416,UI > Browser > Profiles,UI,gesture,browser,4,3000,2019-10-31,2023-10-10,2023-10-12,No,No

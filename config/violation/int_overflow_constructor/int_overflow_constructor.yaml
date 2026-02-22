@@ -1,0 +1,18 @@
+rules:
+# try expand the scope
+- id: int-overflow-oob
+  message: |
+    Integer Overflow Caused Out Of Bounds R/W
+  metadata:
+    type: Integer Overflow Caused Out Of Bounds R/W in constructor
+  severity: ERROR
+  patterns:
+    # using find results without checking
+    - pattern-either:
+        - pattern: static_cast<$TYPE>($MALLOC($MULT_OPERATION(...), ...))
+    - metavariable-regex:
+        metavariable: $MALLOC
+        regex: (^[A-Za-z]*alloc$)
+    - focus-metavariable: $MULT_OPERATION
+  languages:
+  - c++

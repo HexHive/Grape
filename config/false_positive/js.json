@@ -1,0 +1,12 @@
+{
+  "ResetFieldAppearance" : {
+    "third_party/pdfium/fpdfsdk/cpdfsdk_formfillenvironment.cpp" : 1
+  },
+  "GetValue" : {
+    "third_party/pdfium/fpdfsdk/formfiller/cffl_textfield.cpp" : 1
+  },
+  "OnFormat" : {
+    "third_party/pdfium/fxjs/cjs_field.cpp" : 1
+  }
+
+}

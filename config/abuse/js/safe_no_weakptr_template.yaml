@@ -1,0 +1,53 @@
+rules:
+- id: find-safe-js-violation-handling
+  message: |
+    Finding Safe Violation Handling
+  metadata:
+    type: Safe JS Violation Handling by Return
+  severity: ERROR
+  patterns:
+    - pattern-either: 
+      - patterns:
+        - pattern: $FREE_FUNC(...);
+        - pattern-inside: |
+            $TYPE $FUNC(...) {
+              ...
+            }
+        - pattern-not-inside: |
+            $FREE_FUNC(...);
+            $ANOTHER_STATMENT;
+        - pattern-not-inside: |
+            if ($IF_STATEMENT) {
+              ...
+              $FREE_FUNC(...);
+            }
+        - pattern-not-inside: |
+            if ($IF_STATEMENT) {
+              ...
+            } else {
+              ...
+              $FREE_FUNC(...);
+            }
+      - patterns:
+          - pattern: |
+              if ($IF_STATEMENT) {
+                $FREE_FUNC(...);
+              }
+          - pattern-inside: |
+              $TYPE $FUNC(...) {
+                ...
+              }
+          - pattern-not-inside: |
+              if ($IF_STATEMENT) {
+                $FREE_FUNC(...);
+              }
+              $ANOTHER_STATMENT;
+      - pattern: |
+          $FREE_FUNC(...);
+          return ...;
+      - pattern: |
+          $FREE_FUNC(...);
+          break;
+    - focus-metavariable: $FREE_FUNC
+  languages:
+  - c++
