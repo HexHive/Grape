@@ -1,0 +1,15 @@
+rules:
+  - id: find-secret-passed-via-cli-arg
+    languages:
+      - rust
+    severity: ERROR
+    message: |
+      Sensitive token passed to a spawned process as a CLI argument
+      (CVE-2024-26165 code-clone variant). The flag/value pair lands in
+      argv and is readable by any local user via ps / /proc/<pid>/cmdline.
+      Use a file-backed flag (e.g. --connection-token-file) instead.
+    patterns:
+      - pattern: |
+          $CMD.arg("--connection-token");
+          $CMD.arg($DIR_NAME);
+      - focus-metavariable: $DIR_NAME

@@ -25,7 +25,8 @@ available_bug_variants = {
   'int_overflow' : {'type' : 'Integer Overflow', 'violation' : True, 'abuse' : False},
   'int_overflow_constructor' : {'type' : 'Integer Overflow', 'violation' : True, 'abuse' : False},
   'int_overflow_add' : {'type' : 'Integer Overflow (Add)', 'violation' : True, 'abuse' : False},
-  'logical' : {'type' : 'Improper Access Control', 'violation': True, 'abuse' : False}
+  'logical' : {'type' : 'Improper Access Control', 'violation': True, 'abuse' : False},
+  'logical_cmd' : {'type' : 'Improper Access Control (CLI argv leak)', 'violation': True, 'abuse' : False}
 }
 
 def get_bug_variant_config():
@@ -46,7 +47,8 @@ keywords = {
   'int_overflow' : '$BUFFER',
   'int_overflow_constructor' : '$MULT_OPERATION',
   'int_overflow_add' : '$KEY_VAR',
-  'logical' : '$DIR_NAME'
+  'logical' : '$DIR_NAME',
+  'logical_cmd' : '$DIR_NAME'
 }
 
 def get_keywords(bug_variant):
