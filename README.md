@@ -5,6 +5,9 @@ This repo include the queries we used for scanning the variant bugs
 in the Chromium and VSCode. All queries can be re-implemented 
 in any analyzer that support AST and variable name matching.
 
+This artifact receives **Available, Functional, Reproduced** badges, 
+we thanks again for reviewers' efforts!
+
 For more details, check out our [paper](https://kdsjzh.github.io/assets/pdf/26WOOT.pdf).
 Please consider cite our work if you find it useful.
 ```
@@ -29,6 +32,13 @@ components remain not changed.**
 Grape itself requires python 3.10, semgrep 1.90.0 and grep, and in most OS, 
 python and grep are available and the user only need to install the semgrep via 
 `pip3 install semgrep==1.90.0`.
+
+For Chromium bugs reproduce, please download the chromium source and switch to 
+126.0.6465.2, to reproduce bug 1-9, 11-13. For bug 10, it is introduced after 130.0.6710.0, 
+thus switch chromium to 130.0.6710.0.
+
+Fore VSCode and AzureDataStudio, please download the the VSCode 1.99.0 
+to reproduce the bug 14, and AzureDataStudio 1.51.1 to reproduce the bug 15-16.
 
 
 ## Preprocessing
@@ -70,8 +80,8 @@ otherwise the FP rate will be notably lower than reported results in the paper.
 ## Usage
 
 ```bash
-# usage, if evaluating pattern 6, use the vscode 1.99.0
-# if evaluating pattern 1-5, use chrome 126.0.6465.2
+# usage, if evaluating pattern 6, use the vscode 1.99.0 / azuredatastudio 1.51.1
+# if evaluating pattern 1-5, use chrome 126.0.6465.2 (except bug 10, for bug 10, use 130.0.6710.0)
 
 python3 src/main.py -t $TMP_DIR -r /path/to/chrome $BUG_VARIANT
 
